@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AA Resident Desk · Anne Arundel</title>
+<meta name="theme-color" content="#0c4a6e">
+<meta name="description" content="One-screen Anne Arundel County resident desk — trash/recycling tips, AACPL library, parks, and real public county links for Millersville.">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+
+<header class="top no-print">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 48 48" width="44" height="44">
+        <defs>
+          <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#0ea5e9"/>
+            <stop offset="1" stop-color="#14b8a6"/>
+          </linearGradient>
+        </defs>
+        <rect x="6" y="8" width="36" height="32" rx="10" fill="#f0f9ff" stroke="url(#ag)" stroke-width="2.4"/>
+        <path d="M14 30V18h6l4 8 4-8h6v12h-4v-7l-4 7h-4l-4-7v7h-4z" fill="url(#ag)"/>
+      </svg>
+    </div>
+    <div>
+      <h1>AA Resident Desk</h1>
+      <p class="tag">Anne Arundel · Millersville · Boyd household</p>
+    </div>
+  </div>
+  <div class="top-actions">
+    <span class="pill soft">aacounty.org · aacpl.net</span>
+    <span class="pill teal" id="placePill">Millersville MD</span>
+  </div>
+</header>
+
+<nav class="tabs no-print" role="tablist" aria-label="Resident desk">
+  <button class="tab active" data-view="home" role="tab" aria-selected="true">🏠 Home</button>
+  <button class="tab" data-view="trash" role="tab" aria-selected="false">♻️ Trash &amp; recycling</button>
+  <button class="tab" data-view="library" role="tab" aria-selected="false">📚 Library</button>
+  <button class="tab" data-view="parks" role="tab" aria-selected="false">🌳 Parks</button>
+  <button class="tab" data-view="links" role="tab" aria-selected="false">🔗 Links</button>
+  <button class="tab" data-view="about" role="tab" aria-selected="false">About</button>
+</nav>
+
+<main>
+  <section id="view-home" class="view active" role="tabpanel">
+    <div class="hero panel teal-panel">
+      <p class="eyebrow">Anne Arundel County</p>
+      <h2 class="view-title">One-screen resident desk</h2>
+      <p class="lede">Quick jumps for trash &amp; recycling tips, AACPL branches, parks near Millersville, and real public county pages. EXAMPLE collection days are labeled — confirm with the county.</p>
+      <div class="quick-grid" id="quickGrid"></div>
+    </div>
+  </section>
+
+  <section id="view-trash" class="view" role="tabpanel">
+    <div class="panel">
+      <div class="badge-ex">EXAMPLE schedule — confirm with county</div>
+      <h2 class="view-title">Trash &amp; recycling</h2>
+      <p class="lede" id="trashDisclaimer"></p>
+      <div class="sched" id="schedRoot"></div>
+      <div class="tip-grid" id="trashTips"></div>
+      <div class="link-list" id="trashLinks"></div>
+    </div>
+  </section>
+
+  <section id="view-library" class="view" role="tabpanel">
+    <div class="panel">
+      <h2 class="view-title">AACPL branches</h2>
+      <p class="lede">Anne Arundel County Public Library — real branch pages on aacpl.net. Hours change; always check the linked page.</p>
+      <div class="card-grid" id="libraryRoot"></div>
+      <p class="hub-link"><a href="https://www.aacpl.net/locations" target="_blank" rel="noopener">All locations &amp; hours →</a></p>
+    </div>
+  </section>
+
+  <section id="view-parks" class="view" role="tabpanel">
+    <div class="panel">
+      <h2 class="view-title">Parks near home</h2>
+      <p class="lede">Real AA County park names with short notes. Regional parks often need a vehicle pass (YourPassNow).</p>
+      <div class="card-grid" id="parksRoot"></div>
+    </div>
+  </section>
+
+  <section id="view-links" class="view" role="tabpanel">
+    <div class="panel">
+      <h2 class="view-title">Public links</h2>
+      <p class="lede">Verified public URLs only. No invented phone numbers.</p>
+      <div id="linksRoot" class="grouped-links"></div>
+    </div>
+  </section>
+
+  <section id="view-about" class="view" role="tabpanel">
+    <div class="panel">
+      <h2 class="view-title">About</h2>
+      <p class="lede">TokenMax burn build — a clean municipal desk for the Boyd household in Millersville. Offline-capable single file; open links for live county info.</p>
+      <ul class="about-list">
+        <li>Trash reminders are <strong>EXAMPLE</strong> — Boyd must confirm collection day with Anne Arundel County.</li>
+        <li>Library &amp; park URLs point at aacpl.net / aacounty.org public pages.</li>
+        <li>Favorites (branch/park ids) save in localStorage on this device.</li>
+      </ul>
+      <div class="row-actions no-print">
+        <button type="button" class="btn ghost" id="btnClearFav">Clear favorites</button>
+        <button type="button" class="btn primary" id="btnPrint">Print this page</button>
+      </div>
+      <p class="hint">Offline: dist/aa-resident-desk.html · Port 4322</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot no-print">
+  <span>🏛️ AA Resident Desk</span>
+  <span>Public links · EXAMPLE schedules labeled</span>
+</footer>
+
+<script>
+window.__DESK__ = /*__DESK__*/ null /*__/DESK__*/;
+/*__APP__*/
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "title": "AA Resident Desk",
+  "version": 1,
+  "place": "Anne Arundel County · Millersville MD",
+  "homeNote": "Boyd house · Springbloom / Millersville — confirm schedules with county",
+  "trash": {
+    "disclaimer": "EXAMPLE collection reminders for Springbloom/Millersville — not official. Confirm your day with Anne Arundel County Waste Management.",
+    "tips": [
+      { "id": "t1", "title": "Yellow recycling bin", "body": "Curbside recyclables once weekly (Mon–Fri by zone). Glass OK in yellow bin or sorted at recycling centers." },
+      { "id": "t2", "title": "Trash day (EXAMPLE)", "body": "EXAMPLE — many Millersville routes run mid-week. Confirm your exact day on the county site or with your hauler notice." },
+      { "id": "t3", "title": "Bulk / yard waste", "body": "Check county rules before curb bulk items. Recycling centers accept extra drop-off Mon–Sat 8am–4pm." }
+    ],
+    "links": [
+      { "label": "Recycling information", "url": "https://www.aacounty.org/public-works/waste-management/recycling-information" },
+      { "label": "Recycling centers", "url": "https://www.aacounty.org/public-works/waste-management/recycling-centers" },
+      { "label": "Know before you go (cameras)", "url": "https://www.aacounty.org/public-works/waste-management/know-you-go" },
+      { "label": "Waste Management home", "url": "https://www.aacounty.org/public-works/waste-management" }
+    ],
+    "exampleSchedule": [
+      { "day": "Mon", "item": "Recycling (EXAMPLE zone)", "example": true },
+      { "day": "Wed", "item": "Trash (EXAMPLE — confirm)", "example": true },
+      { "day": "Sat", "item": "Recycling center drop-off option", "example": false }
+    ]
+  },
+  "library": {
+    "system": "Anne Arundel County Public Library",
+    "hub": "https://www.aacpl.net/",
+    "locations": "https://www.aacpl.net/locations",
+    "branches": [
+      {
+        "id": "sp",
+        "name": "Severna Park",
+        "address": "45 West McKinsey Road, Severna Park, MD 21146",
+        "url": "https://www.aacpl.net/services/Severna-Park",
+        "note": "Closest-ish for many Millersville families · Sunday hours Sept–May"
+      },
+      {
+        "id": "bn",
+        "name": "Broadneck",
+        "address": "1275 Green Holly Drive, Annapolis, MD 21409",
+        "url": "https://www.aacpl.net/services/Broadneck",
+        "note": "Outdoor Wi-Fi · Little Free Pantry"
+      },
+      {
+        "id": "od",
+        "name": "Odenton",
+        "address": "See aacpl.net/locations",
+        "url": "https://www.aacpl.net/locations",
+        "note": "West county option · Sunday hours Sept–May"
+      },
+      {
+        "id": "busch",
+        "name": "Michael E. Busch Annapolis",
+        "address": "See aacpl.net/locations",
+        "url": "https://www.aacpl.net/locations",
+        "note": "Downtown Annapolis hub"
+      }
+    ]
+  },
+  "parks": [
+    {
+      "id": "kinder",
+      "name": "Kinder Farm Park",
+      "address": "1001 Kinder Farm Park Road, Millersville, MD 21108",
+      "url": "https://www.aacounty.org/recreation-parks/parks/kinder-farm-park",
+      "note": "Local favorite — trails, farm animals, playgrounds in Millersville."
+    },
+    {
+      "id": "quiet",
+      "name": "Quiet Waters Park",
+      "address": "600 Quiet Waters Park Rd, Annapolis, MD 21403",
+      "url": "https://www.aacounty.org/recreation-parks/parks/quiet-waters-park",
+      "note": "South River / Harness Creek · paved trails · playgrounds · regional pass."
+    },
+    {
+      "id": "downs",
+      "name": "Downs Park",
+      "address": "See aacounty.org recreation parks",
+      "url": "https://www.aacounty.org/recreation-parks/parks",
+      "note": "Bayfront regional park · pass required for vehicle entry."
+    },
+    {
+      "id": "beverly",
+      "name": "Beverly Triton Nature Park",
+      "address": "See aacounty.org recreation parks",
+      "url": "https://www.aacounty.org/recreation-parks/parks",
+      "note": "Regional park · nature focus · YourPassNow for daily/annual passes."
+    }
+  ],
+  "links": [
+    { "group": "County", "label": "Anne Arundel County Government", "url": "https://www.aacounty.org/" },
+    { "group": "County", "label": "Recreation & Parks", "url": "https://www.aacounty.org/recreation-parks" },
+    { "group": "Library", "label": "AACPL home", "url": "https://www.aacpl.net/" },
+    { "group": "Library", "label": "Locations & hours", "url": "https://www.aacpl.net/locations" },
+    { "group": "Library", "label": "Contact / Ask Us", "url": "https://www.aacpl.net/about/contact-us" },
+    { "group": "Waste", "label": "Recycling information", "url": "https://www.aacounty.org/public-works/waste-management/recycling-information" },
+    { "group": "Waste", "label": "Recycling centers", "url": "https://www.aacounty.org/public-works/waste-management/recycling-centers" },
+    { "group": "Passes", "label": "Regional park passes (YourPassNow)", "url": "https://www.yourpassnow.com/" }
+  ]
+}
