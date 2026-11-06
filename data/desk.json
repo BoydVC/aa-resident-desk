@@ -1,13 +1,13 @@
 {
   "title": "AA Resident Desk",
   "version": 1,
-  "place": "Anne Arundel County · Millersville MD",
-  "homeNote": "Boyd house · Springbloom / Millersville — confirm schedules with county",
+  "place": "Anne Arundel County · Lakeside MD",
+  "homeNote": "Rivera house · Oak Street / Lakeside — confirm schedules with county",
   "trash": {
-    "disclaimer": "EXAMPLE collection reminders for Springbloom/Millersville — not official. Confirm your day with Anne Arundel County Waste Management.",
+    "disclaimer": "EXAMPLE collection reminders for Oak Street/Lakeside — not official. Confirm your day with Anne Arundel County Waste Management.",
     "tips": [
       { "id": "t1", "title": "Yellow recycling bin", "body": "Curbside recyclables once weekly (Mon–Fri by zone). Glass OK in yellow bin or sorted at recycling centers." },
-      { "id": "t2", "title": "Trash day (EXAMPLE)", "body": "EXAMPLE — many Millersville routes run mid-week. Confirm your exact day on the county site or with your hauler notice." },
+      { "id": "t2", "title": "Trash day (EXAMPLE)", "body": "EXAMPLE — many Lakeside routes run mid-week. Confirm your exact day on the county site or with your hauler notice." },
       { "id": "t3", "title": "Bulk / yard waste", "body": "Check county rules before curb bulk items. Recycling centers accept extra drop-off Mon–Sat 8am–4pm." }
     ],
     "links": [
@@ -32,7 +32,7 @@
         "name": "Severna Park",
         "address": "45 West McKinsey Road, Severna Park, MD 21146",
         "url": "https://www.aacpl.net/services/Severna-Park",
-        "note": "Closest-ish for many Millersville families · Sunday hours Sept–May"
+        "note": "Closest-ish for many Lakeside families · Sunday hours Sept–May"
       },
       {
         "id": "bn",
@@ -61,9 +61,9 @@
     {
       "id": "kinder",
       "name": "Kinder Farm Park",
-      "address": "1001 Kinder Farm Park Road, Millersville, MD 21108",
+      "address": "1001 Kinder Farm Park Road, Lakeside, MD 21108",
       "url": "https://www.aacounty.org/recreation-parks/parks/kinder-farm-park",
-      "note": "Local favorite — trails, farm animals, playgrounds in Millersville."
+      "note": "Local favorite — trails, farm animals, playgrounds in Lakeside."
     },
     {
       "id": "quiet",
