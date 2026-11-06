@@ -1,6 +1,6 @@
 # AA Resident Desk
 
-One-screen **Anne Arundel County** resident desk for the Boyd household in Millersville — trash/recycling tips (EXAMPLE schedule labeled), AACPL branch cards with real aacpl.net links, parks (Kinder Farm, Quiet Waters, …), and verified public county pages. Clean municipal blue/teal UI. TokenMax burn build.
+One-screen **Anne Arundel County** resident desk for the Rivera household in Lakeside — trash/recycling tips (EXAMPLE schedule labeled), AACPL branch cards with real aacpl.net links, parks (Kinder Farm, Quiet Waters, …), and verified public county pages. Clean municipal blue/teal UI. TokenMax burn build.
 
 ## Screens
 
@@ -31,7 +31,7 @@ Offline single file: `dist/aa-resident-desk.html`
 
 ---
 ## Repo notes
-- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/aa-resident-desk` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
 - Personal details (emails, phone numbers, home street address) were replaced with `[redacted-…]` placeholders.

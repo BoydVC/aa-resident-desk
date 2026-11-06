@@ -158,7 +158,7 @@
   if (btnPrint) btnPrint.addEventListener("click", () => window.print());
 
   if ($("#placePill") && data.place) {
-    $("#placePill").textContent = "Millersville MD";
+    $("#placePill").textContent = "Lakeside MD";
   }
 
   renderHome();
